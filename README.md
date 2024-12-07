@@ -31,8 +31,8 @@ pip install streamlit langchain openai
 3. Dasturda API kalitini kiriting
 
 ### Loyihani Ishga Tushirish
-```bash
-streamlit run audi_chatbot.py
+```
+https://audi-company-chatbot-nmmpxbhjog6qmsxmwprkjn.streamlit.app/
 ```
 
 ## Foydalanish Yo'riqnomasi
