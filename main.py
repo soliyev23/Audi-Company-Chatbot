@@ -1,9 +1,9 @@
+import streamlit as st
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import WebBaseLoader
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import streamlit as st
 
 @st.cache_resource
 def load_retriever(api_key):
@@ -37,7 +37,7 @@ if st.session_state["openai_api_key"] is None:
     if openai_api_key:
         if openai_api_key.startswith("sk-") and len(openai_api_key) >= 51:
             st.session_state["openai_api_key"] = openai_api_key
-            st.experimental_rerun()
+            st.rerun()  # Replace experimental_rerun() with rerun()
         else:
             st.error("API kaliti noto'g'ri.")
 else:
