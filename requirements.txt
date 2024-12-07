@@ -1,2 +1,9 @@
 langchain
 streamlit
+langchain.chat_models 
+langchain.chains 
+langchain.vectorstores 
+langchain.embeddings 
+langchain.document_loaders 
+langchain.text_splitter 
+streamlit
