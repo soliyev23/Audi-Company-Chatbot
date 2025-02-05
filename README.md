@@ -1,47 +1,47 @@
-# Audi Kompaniyasi Chatbot 🤖
+# Чатбот компании Audi 🤖
 
-## Loyiha Tavsifi
-Bu Streamlit-ga asoslangan chatbot Audi kompaniyasi haqida ma'lumot beruvchi interaktiv yordamchi hisoblanadi. Loyiha Wikipedia ma'lumotlaridan foydalanib, foydalanuvchilarga Audi haqida savollar berish imkonini beradi.
+## Описание проекта
+Этот чатбот, основанный на Streamlit, представляет собой интерактивного помощника, предоставляющего информацию о компании Audi. Проект использует данные из Wikipedia, позволяя пользователям задавать вопросы об Audi.
 
-## Asosiy Xususiyatlar
-- OpenAI API yordamida ma'lumotlarni qidirish
-- Wikipedia manbalari asosida javoblar berish
-- Oson va intuitiv foydalanish interfeysи
-- Sohaga oid ma'lumotlarni o'zida mujassam etgan chatbot
+## Основные особенности
+- Поиск информации с помощью OpenAI API
+- Ответы на основе источников из Wikipedia
+- Простой и интуитивно понятный интерфейс
+- Чатбот, содержащий информацию по отрасли
 
-## Kerakli Kutubxonalar
+## Необходимые библиотеки
 - streamlit
 - langchain
 - openai
 
-## O'rnatish va Sozlash
+## Установка и настройка
 
-### Talablar
+### Требования
 - Python 3.8+
-- OpenAI API kaliti
+- Ключ OpenAI API
 
-### Kutubxonalarni o'rnatish
+### Установка библиотек
 ```bash
 pip install streamlit langchain openai
 ```
 
-### API Kalitini Olish
-1. OpenAI saytida ro'yxatdan o'ting
-2. API kalitini yarating
-3. Dasturda API kalitini kiriting
+### Получение API ключа
+1. Зарегистрируйтесь на сайте OpenAI
+2. Создайте API ключ
+3. Введите API ключ в программу
 
-### Loyihani Ishga Tushirish
+### Запуск проекта
 ```
 https://audi-company-chatbot-nmmpxbhjog6qmsxmwprkjn.streamlit.app/
 ```
 
-## Foydalanish Yo'riqnomasi
-1. Dasturni ishga tushiring
-2. OpenAI API kalitini kiriting
-3. Audi kompaniyasi haqida savollar bering
-4. Chatbot sizga javob beradi
+## Инструкция по использованию
+1. Запустите программу
+2. Введите ключ OpenAI API
+3. Задавайте вопросы о компании Audi
+4. Чатбот будет отвечать на ваши вопросы
 
-## Eslatmalar
-- API kalitingizni maxfiy saqlang
-- Internetga ulanish zarur
-- Savollaringizni aniq va qisqa qilib bering
+## Примечания
+- Храните ваш API ключ в безопасности
+- Требуется подключение к интернету
+- Формулируйте вопросы четко и кратко
