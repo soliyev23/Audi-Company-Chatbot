@@ -1,47 +1,43 @@
-# Чатбот компании Audi 🤖
+# Audi Company Chatbot 🤖
 
-## Описание проекта
-Этот чатбот, основанный на Streamlit, представляет собой интерактивного помощника, предоставляющего информацию о компании Audi. Проект использует данные из Wikipedia, позволяя пользователям задавать вопросы об Audi.
+## Project Description
+This Streamlit-based chatbot is an interactive assistant that provides information about the Audi company. The project utilizes data from Wikipedia, allowing users to ask questions specifically about Audi.
 
-## Основные особенности
-- Поиск информации с помощью OpenAI API
-- Ответы на основе источников из Wikipedia
-- Простой и интуитивно понятный интерфейс
-- Чатбот, содержащий информацию по отрасли
+## Key Features
+- Information retrieval using the OpenAI API
+- Answers based on Wikipedia sources
+- Simple and intuitive user interface
+- Industry-specific knowledge chatbot
 
-## Необходимые библиотеки
+## Required Libraries
 - streamlit
 - langchain
 - openai
 
-## Установка и настройка
+## Installation and Setup
 
-### Требования
+### Requirements
 - Python 3.8+
-- Ключ OpenAI API
+- OpenAI API Key
 
-### Установка библиотек
-```bash
+### Library Installation
 pip install streamlit langchain openai
-```
 
-### Получение API ключа
-1. Зарегистрируйтесь на сайте OpenAI
-2. Создайте API ключ
-3. Введите API ключ в программу
+### Obtaining an API Key
+1. Register on the OpenAI website
+2. Create an API key
+3. Enter the API key into the application
 
-### Запуск проекта
-```
+### Project Launch (Live Demo)
 https://audi-company-chatbot-nmmpxbhjog6qmsxmwprkjn.streamlit.app/
-```
 
-## Инструкция по использованию
-1. Запустите программу
-2. Введите ключ OpenAI API
-3. Задавайте вопросы о компании Audi
-4. Чатбот будет отвечать на ваши вопросы
+## Usage Instructions
+1. Run the application
+2. Enter your OpenAI API key
+3. Ask questions about Audi
+4. The chatbot will provide answers based on verified data
 
-## Примечания
-- Храните ваш API ключ в безопасности
-- Требуется подключение к интернету
-- Формулируйте вопросы четко и кратко
+## Notes
+- Keep your API key secure
+- Internet connection is required
+- For best results, phrase your questions clearly and concisely
